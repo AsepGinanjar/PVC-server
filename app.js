@@ -8,7 +8,7 @@ app.use(cors()); // Middleware CORS
 
 // Endpoint API
 app.get("/api/data", (req, res) => {
-  res.json({ message: "Halo dari Backend Node.js!" });
+  res.json({ message: "Halo Asep" });
 });
 
 // Jalankan server di semua IP agar bisa diakses dari jaringan lokal
